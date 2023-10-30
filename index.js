@@ -21,6 +21,7 @@ socketio.on("connection", (userSocket) => {
     });
 });
 
-http.listen(8080, () => {
+http.listen(process.env.PORT || 3000, () => {
     console.log("Server is running on port 8080");
 });
+
