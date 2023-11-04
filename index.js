@@ -2,7 +2,7 @@ const WebSocket = require('ws')
 const express = require('express')
 const moment = require('moment')
 const app = express()
-const port = 7878; //port for https
+const port = 8080; //port for https
 
 app.get('/', (req, res) => {
     res.send("Server is Running");
